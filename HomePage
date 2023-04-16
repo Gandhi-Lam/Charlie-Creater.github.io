@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Coding Experience with Python</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <h1>Experience with Python and JavaScript</h1>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--<li class="dropdown">
+                    <a href="#" class="dropbtn">Introduction</a>
+                    <div class="dropdown-content">
+                        <a href="#Python">Python</a>
+                        <a href="#JavaScript">JavaScript</a>
+                    </div>
+                </li>-->
+                <li class="dropdown">
+                    <a href="usage/usage.html" class="dropbtn">Usage</a>
+                    <div class="dropdown-content">
+                        <<a href="usage/usage.html#Python">>Python</a>
+                        <a href="usage/usage.html#JavaScript">JavaScript</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="Syntax Different/syntax.html" class="dropbtn">Syntax Differences</a>
+                    <div class="dropdown-content">
+                        <a href="Syntax Different/syntax.html#topic">Introduction</a>
+                        <a href="Syntax Different/syntax.html#codeBlock">Code Block</a>
+                        <a href="Syntax Different/syntax.html#variable">Definition of Variable</a>
+                        <a href="Syntax Different/syntax.html#comment">Commenting</a>
+                        <a href="Syntax Different/syntax.html#logical">Logical Operators</a>
+                        <a href="Syntax Different/syntax.html#in&out">Inputs & Outputs</a>
+                        <a href="Syntax Different/syntax.html#ifCondition">If-Conditional</a>
+                        <a href="Syntax Different/syntax.html#loop">Loops</a>
+                        <a href="Syntax Different/syntax.html#summary">Takeaway</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="library/library.html" class="dropbtn">Libraries</a>
+                    <!--<div class="dropdown-content">
+                        <a href="library/library.html#python">Python</a>
+                        <a href="library/library.html#javascript">JavaScript</a>
+                    </div>-->
+                </li>
+            </ul>
+        </nav>
+        <section class="languages">
+            <h2>JavaScript</h2>
+            <p>Click the button to see an alert with a message about my JavaScript experience:</p>
+            <button id="jsButton">Click me</button>
+        </section>
+
+        <section class="languages">
+            <h2>Python</h2>
+            <p>Click the button to see an alert with a message about my Python experience:</p>
+            <button id="pythonButton">Click me</button>
+        </section>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
